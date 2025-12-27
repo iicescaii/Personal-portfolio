@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="#home" class="logo">Francesca <span>Togonon</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar links-container">
+        <a href="#home" class="active" class="scroll-link">home</a>
+        <a href="#skills" class="scroll-link">skills</a>
+        <a href="#projects" class="scroll-link">projects</a>
+        <a href="#resume" class="scroll-link">resume</a>
+        <a href="#contact" class="scroll-link">contact</a>
+      </nav>
+    </header>
+
+    <!-- hero section -->
+    <section id="home" class="home">
+      <div class="home-content">
+        <h1>Hi, I'ts <span>Francesca</span></h1>
+        <h3>I'm <span id="element"></span></h3>
+        <p>
+          I'm a passionate learner of full-stack development, excited about
+          building dynamic, functional websites from the scratch. I'm constantly
+          working on improving my front-end and back-end skills, and I love
+          taking on new challenges that help me grow as a developer.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.facebook.com/icescai/" target="_blank"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+          <a href="mailto:togononfrancescap@gmail.com"
+            ><i class="bx bxs-envelope"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/cesca/" target="_blank"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="./assets/mypic.JPG" alt="" />
+      </div>
+    </section>
+
+ <section id="skills" class="skills">
+      <div class="about-content">
+        <h2 class="heading">Technical <span>Skills</span></h2>
+        
+        <div class="skills-wrapper">
+          <div class="skills-column">
+            <h3><i class='bx bx-star'></i> Core Skills</h3>
+            <ul class="skills-list">
+              <li>Data Cleaning & Preparation</li>
+              <li>Data Visualization</li>
+              <li>Exploratory Data Analysis (EDA)</li>
+              <li>Statistical Analysis</li>
+              <li>Database Management</li>
+            </ul>
+          </div>
+
+          <div class="skills-column">
+            <h3><i class='bx bx-code-alt'></i> Technologies</h3>
+            <ul class="skills-list">
+              <li>Python (Pandas, NumPy)</li>
+              <li>Matplotlib & Seaborn</li>
+              <li>SQL</li>
+              <li>JavaScript</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+
+          <div class="skills-column">
+            <h3><i class='bx bx-wrench'></i> Tools</h3>
+            <ul class="skills-list">
+              <li>MySQL</li>
+              <li>Looker Studio</li>
+              <li>IBM Cognos Analytics</li>
+              <li>Jupyter Notebook</li>
+              <li>Git/GitHub & VS Code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects section -->
+     <section id="projects" class="projects">
+  <h2 class="heading">My <span>Projects</span></h2>
+
+  <div class="projects-container">
+    <div class="project-box">
+      <h3>AI Handwritten Exam Scoring</h3>
+      <p>A UI/UX design for an AI-powered system that checks handwritten papers and scores them automatically based on a professor's answer key.</p>
+      <a href="https://www.figma.com/design/qjyBvxD2QDAIcJUj4Muckc/AI-Handwritten-exam-scoring-wireframe?node-id=0-1&t=ZfX0di9QQ4vqOMV8-1" target="_blank" class="btn">View Figma <i class="bx bx-link-external"></i></a>
+    </div>
+
+    <div class="project-box">
+      <h3>Beauty Advisor Web App</h3>
+      <p>A high-fidelity prototype of a web application that uses skin detection to recommend the perfect makeup base for different skin types.</p>
+      <a href="https://www.figma.com/design/kWiWa15wqSgcuFJiERDzwO/Beauty-Advisor-High-Fidelity-Prototype?node-id=0-1&t=hChako5vkfW0RYw0-1" target="_blank" class="btn">View Figma <i class="bx bx-link-external"></i></a>
+    </div>
+
+    <div class="project-box">
+      <h3>TIP Manila Chatbot</h3>
+      <p>A specialized chatbot platform developed for Senior High School alumni to streamline communication and community engagement.</p>
+      <a href="https://tip-manila-chatbot.onrender.com/" target="_blank" class="btn">Live Demo <i class="bx bx-link-external"></i></a>
+    </div>
+
+    <div class="project-box">
+      <h3>Rice Leaf Disease Detection</h3>
+      <p>An AI-driven project focused on agricultural technology, capable of identifying and classifying 6 distinct types of rice leaf diseases.</p>
+      <span class="btn tag">AI & Deep Learning</span>
+    </div>
+
+    <div class="project-box">
+        <h3>eBrgy System - Brgy 834</h3>
+        <p>A community management platform that allows residents to request official documents, report local incidents, and provide feedback through a secure, role-based web interface.</p>
+        <span class="btn tag">Web Development</span>
+    </div>
+
+    <div class="project-box">
+        <h3>Mobile Banking App</h3>
+        <p>A secure financial application designed for managing personal transactions, enabling users to perform deposits and transfers with real-time balance updates and data validation.</p>
+        <span class="btn tag">Full-Stack App</span>
+    </div>
+  </div>
+</section>
+
+    <!-- Resume -->
+    <section id="resume" class="resume">
+          <div class="resume-container">
+              <h2 class="heading">My <span>Resume</span></h2>
+              
+              <div class="resume-card">
+                  <div class="resume-icon">
+                      <i class="bx bxs-file-pdf"></i>
+                  </div>
+                  <div class="resume-text">
+                      <h3>Curriculum Vitae</h3>
+                      <p>
+                          4th Year Computer Science Student.
+                          Deep dive into my technical journey, leadership roles, and academic achievements.
+                      </p>
+                      <a href="https://drive.google.com/file/d/1QoYT3yYT3B9omCxXajzqmdatvr6Q1e4M/view?usp=sharing" 
+                        class="resume-btn" 
+                        target="_blank">
+                        Download CV <i class="bx bxs-download"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+    <!-- contact -->
+    <section id="contact" class="contact">
+      <div class="contact-text">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <h4>Let's work Together</h4>
+        <p>
+          I’d love to hear from you! Whether you have questions, feedback, or
+          ideas for collaboration, feel free to drop a message in the form
+          beside. I’m always open to new opportunities and connections.
+        </p>
+        <div class="contact-list">
+          <li><i class="bx bxs-send"></i>togononfrancescap@gmail.com</li>
+          <li><i class="bx bxs-phone"></i>09201623525</li>
+          <li><i class="bx bxs-map"></i>Caloocan City</li>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form action="https://api.web3forms.com/submit" method="post">
+          <input
+            type="hidden"
+            name="access_key"
+            value="df095f8a-a431-41a5-b216-c468ae95ed97"
+          />
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter Your Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter Your Email"
+            required
+          />
+          <textarea
+            name="message"
+            id=""
+            cols="40"
+            rows="10"
+            placeholder="Enter Your Message"
+          ></textarea>
+          <input type="submit" value="submit" class="submit-btn" />
+        </form>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="social">
+        <a href="https://www.facebook.com/icescai/" target="_blank"
+          ><i class="bx bxl-facebook-circle"></i
+        ></a>
+        <a href="mailto:togononfrancescap@gmail.com"
+          ><i class="bx bxs-envelope"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/cesca/" target="_blank"
+          ><i class="bx bxl-linkedin-square"></i
+        ></a>
+      </div>
+
+      <p class="copyright">© Francesca Togonon | All Rights Reserved</p>
+    </footer>
+
+    <!-- script tags -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
