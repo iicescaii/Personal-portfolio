@@ -680,6 +680,29 @@ form textarea {
   .projects-container {
     grid-template-columns: 1fr;
   }
+     .resume-card {
+        flex-direction: column; /* Stacks the icon on top of the text */
+        text-align: center;
+        padding: 3rem 2rem;
+        gap: 2rem;
+    }
+
+    .resume-text {
+        text-align: center; /* Centers the heading and paragraph */
+    }
+
+    .resume-text h3 {
+        font-size: 2.4rem;
+    }
+
+    .resume-text p {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .resume-icon i {
+        font-size: 8rem; /* Slightly smaller icon for mobile */
+    }
 }
 
 @media (min-width: 768px) {
@@ -812,4 +835,21 @@ form textarea {
   .footer .copyright {
     font-size: 1.2rem;
   }
+      .resume {
+        padding: 5rem 5%;
+    }
+
+    .resume-card {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .resume-btn {
+        width: 100%; /* Makes button easier to tap on small screens */
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+    }
 }
+
+
+
+
