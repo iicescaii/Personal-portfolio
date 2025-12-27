@@ -1,6 +1,6 @@
 // typing js
 var typed = new Typed("#element", {
-  strings: ["Computer Science Student", "Aspiring Full Stack Developer"],
+  strings: ["Computer Science Student", "Aspiring Data Analyst", "Aspiring Full Stack Developer"],
   typeSpeed: 80,
   backSpeed: 60,
   loop: true,
@@ -55,3 +55,4 @@ menuIcon.onclick = () => {
   menuIcon.classList.toggle("bx-x");
   navbar.classList.toggle("active");
 };
+
